@@ -6,7 +6,10 @@
     "description": "Ludo Tools",
     "keywords": [ "tools"],
     "category": "tools",
-    "dependencies": {"com.dbrizov.naughtyattributes":"https://github.com/dbrizov/NaughtyAttributes.git#upm"},
+    "dependencies": {
+        "com.dbrizov.naughtyattributes":"https://github.com/dbrizov/NaughtyAttributes.git#upm",
+        "com.vertx.debugging":"https://github.com/vertxxyz/Vertx.Debugging.git#upm"
+    },
     "author": {
         "name": "Ludo"
       }

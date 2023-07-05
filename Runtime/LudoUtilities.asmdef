@@ -2,7 +2,9 @@
     "name": "LudoUtilities",
     "rootNamespace": "",
     "references": [
-        "GUID:776d03a35f1b52c4a9aed9f56d7b4229"
+        "GUID:776d03a35f1b52c4a9aed9f56d7b4229",
+        "GUID:d91d5ec20cf4bd541bb898f67497ca6d",
+        "GUID:e3326707c2145e245baeaeadd42f7218"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
