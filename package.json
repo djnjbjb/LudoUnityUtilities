@@ -6,7 +6,6 @@
     "description": "Ludo Tools",
     "keywords": [ "tools"],
     "category": "tools",
-    "dependencies": {},
     "author": {
         "name": "Ludo"
       }
