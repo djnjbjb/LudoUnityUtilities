@@ -1,7 +1,7 @@
 {
     "name": "com.ludo.ludoutilities",
     "displayName": "LudoUtilities",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "unity": "2021.3",
     "description": "Ludo Tools",
     "keywords": [ "tools"],
