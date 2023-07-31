@@ -6,7 +6,7 @@ using UnityEditor;
 public class OpenFolderTool
 {
     [MenuItem("Assets/OpenFolder %q")]
-    static void DoSomething()
+    static void OpenFolder()
     {
         
         Object[] objs = Selection.GetFiltered<Object>(SelectionMode.Assets);
