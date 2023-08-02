@@ -5,7 +5,7 @@ using UnityEditor;
 
 public class OpenFolderTool
 {
-    [MenuItem("Assets/OpenFolder %q")]
+    [MenuItem("Assets/OpenFolder %q", priority = 9999)]
     static void OpenFolder()
     {
         
