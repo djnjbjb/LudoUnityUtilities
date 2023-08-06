@@ -12,7 +12,8 @@ public class OpenFolderTool_HalfDown
     {
         Object obj = EditorUtility.InstanceIDToObject(instanceId);
         string path = AssetDatabase.GetAssetPath(obj);
-        //Debug.Log($"OnOpenAsset {path}"); return false;
+        //Debug.Log($"OnOpenAsset {path}");
+        return false;
         /*
         Event e = Event.current;
         if (e == null || !e.shift) return false;
