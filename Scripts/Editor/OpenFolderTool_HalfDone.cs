@@ -4,8 +4,7 @@ using UnityEngine;
 using UnityEditor;
 using UnityEditor.Callbacks;
 
-public class OpenFolderTool_HalfDown
-
+public class OpenFolderTool_HalfDone
 {
     [OnOpenAsset(0)]
     public static bool OnOpenAsset(int instanceId)

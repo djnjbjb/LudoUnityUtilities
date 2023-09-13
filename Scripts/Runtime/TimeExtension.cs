@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-/*Ê¹ÓÃÊ±£¬ĞèÒªĞÂ½¨Ò»¸öGameObject£¬È»ºó¹ÒÔØÕâ¸ö½Å±¾*/
+/*ä½¿ç”¨æ—¶ï¼Œéœ€è¦æ–°å»ºä¸€ä¸ªGameObjectï¼Œç„¶åæŒ‚è½½è¿™ä¸ªè„šæœ¬*/
 namespace LudoUtilities
 {
     public class TimeExtension : MonoBehaviour

@@ -29,8 +29,7 @@ namespace LudoUtilities
 
         private void FixedUpdate()
         {
-            if (enablePersistent) rigid.velocity = persistentVelocity; ;
-
+            if (enablePersistent) rigid.velocity = persistentVelocity;
         }
 
         public void ApplyVelocity()
