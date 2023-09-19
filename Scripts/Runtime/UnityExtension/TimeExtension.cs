@@ -5,7 +5,7 @@ using UnityEngine;
 
 
 /*使用时，需要新建一个GameObject，然后挂载这个脚本*/
-namespace LudoUtilities
+namespace LudoUtilities.Extension
 {
     public class TimeExtension : MonoBehaviour
     {
