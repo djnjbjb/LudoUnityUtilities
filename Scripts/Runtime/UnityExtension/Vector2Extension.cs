@@ -14,7 +14,7 @@ namespace LudoUtilities.Extension
         /// <param name="direction"></param>
         /// <param name="point"></param>
         /// <returns></returns>
-        public Vector2 FromPointToLine_FindNearestPoint(Vector2 origin, Vector2 direction, Vector2 point)
+        static public Vector2 FromPointToLine_FindNearestPoint(Vector2 origin, Vector2 direction, Vector2 point)
         {
             direction.Normalize();
             Vector2 lhs = point - origin;
@@ -31,7 +31,7 @@ namespace LudoUtilities.Extension
         /// <param name="end"></param>
         /// <param name="point"></param>
         /// <returns></returns>
-        public Vector2 FromPointToLineSegment_FindNearestPoint(Vector2 origin, Vector2 end, Vector2 point)
+        static public Vector2 FromPointToLineSegment_FindNearestPoint(Vector2 origin, Vector2 end, Vector2 point)
         {
             //Get heading
             Vector2 heading = (end - origin);
